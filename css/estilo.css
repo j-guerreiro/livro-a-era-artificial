@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Montserrat:wght@300&family=Pacifico&display=swap");
+
 * {
-  font-family: "Anton", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 0 auto;
 }
 
@@ -83,10 +85,50 @@
   border-radius: 5px;
 }
 
+.newsletter {
+  height: 300px;
+  position: relative;
+  top: 250px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  background-color: rgb(233, 233, 233);
+  color: rgb(93, 13, 146);
+}
+
+.newsletter .newsletter-itens {
+  padding: 10px;
+  margin: 25px 25px;
+}
+
+.newsletter #titulo-newsletter {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.newsletter #subtitulo-newsletter {
+  font-weight: 200;
+}
+
+.newsletter #newsletter-button {
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  padding: 10px;
+  background-color: rgb(93, 13, 146);
+  top: 25px;
+  width: 50px;
+  height: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
 .footer {
   height: 300px;
   position: relative;
-  top: 360px;
+  top: 250px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -98,6 +140,7 @@
 .footer .footer-itens {
   padding: 10px;
   margin: 25px 25px;
+  text-align: center;
 }
 
 .footer .footer-itens p {
