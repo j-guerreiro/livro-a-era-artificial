@@ -1,4 +1,59 @@
 * {
   font-family: "Anton", sans-serif;
+  font-weight: 200;
   margin: 0 0 auto;
+}
+
+.menu-principal {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: rgb(212, 209, 209);
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.menu-principal #logo-principal {
+  border-radius: 100%;
+}
+
+.menu-principal #form-input {
+  width: 50vw;
+  height: 25px;
+  padding: 10px;
+  background-image: url(/assets/search\ icon\ 4.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.elementos-menu,
+.menu-principal #form-input {
+  margin-top: 25px;
+}
+
+.container-titulo,
+.container-sinopse,
+.container-sinopse,
+.container-autoria,
+.container-marketing,
+.footer {
+  position: relative;
+}
+
+.container-titulo {
+  margin: 25px 25px;
+}
+
+.container-sinopse {
+}
+
+.container-autoria {
+}
+
+.container-marketing {
+}
+
+.footer {
 }

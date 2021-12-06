@@ -9,39 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="style/css" href="css/estilo.css"> 
+    <link rel="stylesheet" href="css/estilo.css"> 
     <title>A Era Artificial</title>
 </head>
 <body>
 
     <!-- nav menu do site -->
-    <nav class="menu">
-        <a href="#"><img src="assets/logo-menu-topo.jpg"></a>
-        <form action="GET">
-            <input type="text" name="busca" value="O que você procura?">
+    <nav class="menu-principal">
+        <a href="#"><img id="logo-principal" src="assets/logo-menu-topo.jpg"></a>
+        <form id="form-busca" action="GET">
+            <input id="form-input" type="text" name="busca" value="O que você procura?">
         </form>
-        <a href="cadastro.html">Entre ou cadastre-se</a>
-        <a href="#"><img src="/assets/carrinho 3.png"></a>
-
+        <a class="elementos-menu" href="cadastro.html"><img src="/assets/boneco perfil 2.png"><p id="texto-login">Entre ou cadastre-se</p></a>
+        <a class="elementos-menu" href="#"><img src="/assets/favoritos 2.png"></a>
+        <a class="elementos-menu" href="#"><img src="/assets/carrinho 3.png"></a>
     </nav>
     
     <!-- secao principal do site -->
     <main>
         <div class="container-titulo">
-            <h1>A Era Artificial</h1>
+            <h1 class="titulos">Livros</h1>
+            <h2 class="titulos">A Era Artificial</h2>
             <img src="assets/a era artificial ed timeless.jpg">
-            <h2>A Tomada de Consciência das Máquinas</h2>
+            <h3 class="titulos">A Tomada de Consciência das Máquinas</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati inventore sint perferendis culpa dignissimos minima ut officiis omnis repellendus ratione cum, exercitationem praesentium, tempore sed laborum corrupti odit dolor ab.</p>
             <a href="#">COMPRAR</a>
         </div>
 
         <section class="container-sinopse">
-            <h3>Uma Revolução sem Precedentes</h3>
+            <h4>Uma Revolução sem Precedentes</h4>
             <p><span><em><b>Era Artificial - A Tomada de Consciência das Máquinas</em></b></span>, lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui rerum voluptatum, officiis dolor adipisci fuga dignissimos voluptate quod explicabo repellat, corporis accusantium sunt rem iure itaque perferendis natus quidem eum.</p>
         </section>
 
         <section class="container-autoria">
-            <h3>Informações Sobre a Autora</h3>
+            <h5>Informações Sobre a Autora</h5>
             <img src="/assets/autora.jpg">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dicta praesentium, aspernatur recusandae nulla nostrum nihil veritatis a sequi earum, doloremque animi maxime iure corrupti! Sit, illum. Eius, commodi maxime?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum reprehenderit corporis molestias quam ad quibusdam sit, animi, vitae earum, velit temporibus dicta beatae dolor expedita praesentium ducimus delectus dolores.
