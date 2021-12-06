@@ -1,16 +1,17 @@
 * {
   font-family: "Anton", sans-serif;
-  font-weight: 200;
   margin: 0 0 auto;
 }
 
 .menu-principal {
-  position: relative;
+  position: fixed;
   display: flex;
   width: 100%;
   background-color: rgb(212, 209, 209);
   padding: 10px;
   justify-content: space-around;
+  z-index: 1;
+  margin-top: -25px;
 }
 
 .menu-principal #logo-principal {
@@ -33,17 +34,26 @@
   margin-top: 25px;
 }
 
-.container-titulo,
-.container-sinopse,
-.container-sinopse,
-.container-autoria,
-.container-marketing,
-.footer {
+.cards {
+  top: 180px;
   position: relative;
+  margin: 25px 25px;
+  width: 300px;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-.container-titulo {
-  margin: 25px 25px;
+.cards .livro {
+  padding: 25px;
+}
+
+.container-titulo .imagem-livro {
+  border-radius: 5px;
+}
+
+.container-titulo .titulos {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container-sinopse {
@@ -52,8 +62,15 @@
 .container-autoria {
 }
 
+.container-autoria .imagem-autor {
+  border-radius: 5px;
+}
+
 .container-marketing {
 }
 
 .footer {
+  position: relative;
+  top: 360px;
+  margin: 25px 25px;
 }
