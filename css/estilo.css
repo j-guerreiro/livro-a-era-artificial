@@ -15,9 +15,23 @@ Se a tela tiver menos que 600px, ou seja 600px pra baixa ( valor < 600px )
 @media screen and (max-width: 600px) {
 
   .menu-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    height: 25vh;
+  }
+
+  .menu-principal .elementos-menu {
+    visibility: hidden;
+  }
+
+  .menu-principal #logo-principal{
+    margin-left: 150px;
+    width: 130px;
+    height: 80px;
+  }
+
+  .menu-principal #form-busca {
+    margin-top: 80px;
+    margin-left: -130px;
   }
   
   .cards, .newsletter, .footer {
@@ -46,6 +60,8 @@ Se a tela tiver menos que 600px, ou seja 600px pra baixa ( valor < 600px )
   justify-content: space-around;
   z-index: 1;
   margin-top: -25px;
+  border: 0.02px solid #999;
+  border-radius: 10px;
 }
 
 .menu-principal #logo-principal {
