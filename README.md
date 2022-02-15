@@ -18,11 +18,12 @@ Estou utilizando o editor de código VSCODE-Insiders, sistema operacional GNU Ar
 
 ## Objetivos específicos
 
-- Exercitar HTML e CSS
+- Exercitar HTML, CSS e JS
 - Exercitar a codificação de um projeto gráfico de Website do zero
 - Aplicar os conceitos e propriedades do CSS no documento HTML
 - Estruturar o documento HTML
 - Aplicar conhecimento de GIT e linha de comando
 - Exercitar a busca por documentação técnica e boas práticas
+- Aplicar design responsivo e exercitar media-queries
 
 
