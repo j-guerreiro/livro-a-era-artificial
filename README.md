@@ -7,7 +7,7 @@ As imagens que utilizei são gratuitas e disponíveis na internet, alguns ícone
 ## Layouts
 
 Topo
-![1366px](/assets/layout topo.png)
+![1366px](assets/layout topo.png)
 
 ## Sobre a Autoria
 
