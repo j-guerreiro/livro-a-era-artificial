@@ -5,46 +5,7 @@
   margin: 0 0 auto;
 }
 
-/* max-width 
-
-Se a tela tiver menos que 600px, ou seja 600px pra baixa ( valor < 600px )
-
-*/
-
-@media screen and (max-width: 600px) {
-  .menu-principal {
-    display: block;
-    height: 25vh;
-  }
-
-  .menu-principal .elementos-menu {
-    visibility: hidden;
-  }
-
-  .menu-principal #logo-principal{
-    margin-left: 150px;
-    width: 130px;
-    height: 80px;
-  }
-
-  .menu-principal #form-busca {
-    margin-top: 80px;
-    margin-left: -130px;
-  }
-  
-  .cards, .newsletter, .footer {
-    flex-flow: column nowrap !important;
-    align-items: center;
-  }
+@media screen and (max-width: 350px)  {
   
 }
 
-/* min-width */
-@media screen and (min-width: 900px) {
-
-}
-
-/* min & max-width */
-@media screen and (max-width: 600px) and (min-width: 900px) {
-
-}
