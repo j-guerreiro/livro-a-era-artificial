@@ -4,6 +4,11 @@
 Este projeto tem o intuito de treinar habilidades de programação e um pouco de design.
 As imagens que utilizei são gratuitas e disponíveis na internet, alguns ícones como de login, favoritos e carrinho foram criados no Inkscape.
 
+## Layouts
+
+Topo
+![1366px](/assets/layout topo.png)
+
 ## Sobre a Autoria
 
 Todo código foi criado manualmente por mim J-GUERREIRO sem framework, somente consultando o projeto gráfico e documentação do Mozilla MDN e DevMedia.
