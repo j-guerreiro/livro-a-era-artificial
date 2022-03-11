@@ -4,10 +4,15 @@
 Este projeto tem o intuito de treinar habilidades de programação e um pouco de design.
 As imagens que utilizei são gratuitas e disponíveis na internet, alguns ícones como de login, favoritos e carrinho foram criados no Inkscape.
 
-## Layouts
+## Layouts Iniciais
+### 1. Header
+![1366px](assets/layout-topo.png)
 
-Topo
-![1366px](assets/layout topo.png)
+### 2. Section
+![1366px](assets/section.png)
+
+### 3. Footer
+![1366px](assets/footer.png)
 
 ## Sobre a Autoria
 
