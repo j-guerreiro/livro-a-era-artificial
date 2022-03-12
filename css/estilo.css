@@ -6,6 +6,10 @@
   line-height: 1.6;
 }
 
+html {
+  background-color: rgb(247, 247, 247);
+}
+
 h1, 
 h2, 
 h3, 
@@ -18,15 +22,15 @@ h6 {
 
 .menu-principal {
   position: fixed;
+  flex-flow: row wrap;
   display: flex;
-  width: 99.5%;
-  background-color: rgb(212, 209, 209);
+  width: 97.5vw;
+  background-color: rgb(80, 124, 160);
   padding: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1;
-  margin-top: -25px;
+  margin-top: -15px;
   border: 0.02px solid #999;
-  border-radius: 10px;
 }
 
 .menu-principal #logo-principal {
@@ -50,11 +54,11 @@ h6 {
 }
 
 .cards {
-  top: 180px;
+  top: 150px;
   position: relative;
-  margin: 25px 25px;
+  margin: 15px 15px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
@@ -76,17 +80,8 @@ h6 {
   text-align: center;
 }
 
-.container-sinopse {
-}
-
-.container-autoria {
-}
-
 .container-autoria .imagem-autor {
   border-radius: 5px;
-}
-
-.container-marketing {
 }
 
 .button-comprar {
@@ -154,8 +149,7 @@ h6 {
 }
 
 .footer .footer-itens {
-  padding: 10px;
-  margin: 25px 25px;
+  padding: 1px;
   text-align: center;
 }
 
