@@ -98,18 +98,6 @@ h6 {
   border-radius: 5px;
 }
 
-.newsletter {
-  height: 300px;
-  position: relative;
-  top: 250px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  padding: 5px;
-  background-color: rgb(233, 233, 233);
-  color: rgb(93, 13, 146);
-}
-
 .newsletter .newsletter-itens {
   padding: 10px;
   margin: 25px 25px;
@@ -138,6 +126,20 @@ h6 {
   color: white;
 }
 
+.newsletter {
+  text-align: center;
+  align-items: flex-start;
+  height: 75%;
+  position: relative;
+  top: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  background-color: rgb(233, 233, 233);
+  color: rgb(93, 13, 146);
+}
+
 .inner-footer {
   height: 75%;
   position: relative;
@@ -162,13 +164,28 @@ h6 {
   padding: 15px;
 }
 
-.autoria {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-end;
-  position: relative;
-  color: white;
+.autoria #autoria-link{
+  color: rgb(20, 247, 255);
   text-decoration: none;
+}
 
+.autoria #autoria-link:hover {
+  animation-duration: 2s;
+  animation-name: colorchange;
+}
+
+.github-octo:hover{
+  animation-duration: 2s;
+  animation-name:girador;
+}
+
+@keyframes colorchange {
+  from {color:rgb(20, 247, 255);}
+  to {color: chartreuse;}
+}
+
+@keyframes girador {
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg);}
 }
